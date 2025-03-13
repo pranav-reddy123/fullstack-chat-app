@@ -7,6 +7,9 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss(),
   ],
+  build: {
+    outDir: "dist", // Ensure this is correct
+  },
   daisyui: {
     themes: [
       "light",
